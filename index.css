@@ -1,4 +1,15 @@
 
+h1{
+    color: black;
+    text-align: center;
+}
+.burger1{
+    float: right;
+    padding: 50px;
+}
+.header{
+    background: linear-gradient(to right #E1EBE6 50%, #F6B400 50%);
+}
 
 ul{
     float: right;
