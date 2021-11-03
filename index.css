@@ -1,4 +1,6 @@
-
+.nav{
+    display: inline-block;
+}
 h1{
     color: black;
     text-align: center;
@@ -8,10 +10,14 @@ h1{
     padding: 50px;
 }
 .header{
-    background: linear-gradient(to right #E1EBE6 50%, #F6B400 50%);
+padding: 15px;
+display: flex;
+position: relative;
+background:  linear-gradient(105deg, white 65%, yellow 25%);
+
 }
 
-ul{
+.ul{
     float: right;
     list-style-type: none;
     margin-top: 1px;
@@ -31,8 +37,7 @@ ul li {
     margin-left: 15px;
     width: 100px;
 
-
-        float: left;
+        float: right;
      height: 100px;
 
 }
@@ -49,9 +54,24 @@ ul li {
     box-shadow: 0 0 5px 0px rgba(0 ,0, 0, 0.1);
     border: solid black;
 }
+/* .menu{
+    display: inline-flex;
+} */
 .menu{
     display: inline-flex;
 }
 .menu2{
     display: inline-flex;
+flex-wrap: wrap;
+}
+.nav{
+    float: right;
+    margin: 30px;
+    display: inline;
+    margin-left: 300px;
+    top: -130px;
+}
+.DOUBLE-BURGER {
+    display: flex;
+    flex-wrap: wrap;
 }
